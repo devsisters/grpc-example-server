@@ -12,4 +12,5 @@ message PingReply {
 
 service PingService {
     rpc Ping (PingRequest) returns (PingReply) {}
+    rpc StreamingPing (stream PingRequest) returns (stream PingReply) {}
 }
