@@ -1,0 +1,1 @@
+["sbt.Task[sbtprotoc.ProtocPlugin$Arguments]",[["file:///Users/hyunmin/Devsisters/grpc-example-server/src/main/protobuf/","file:///Users/hyunmin/Devsisters/grpc-example-server/target/protobuf_external/"],[],"python",true,[["file:///Users/hyunmin/Devsisters/grpc-example-server/target/scala-2.12/src_managed/main/",["flat_package","grpc"]]]]]

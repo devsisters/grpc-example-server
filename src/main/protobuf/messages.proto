@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.devsisters.example;
+
+message PingRequest {
+    string payload = 1;
+}
+
+message PingReply {
+    string payload = 2;
+}
+
+service PingService {
+    rpc Ping (PingRequest) returns (PingReply) {}
+}

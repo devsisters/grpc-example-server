@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/hyunmin/Devsisters/grpc-example-server/src/main/scala/com/devsisters/ServerConfig.scala:6:21: not found: type Config[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(config: Config): ServerConfig =[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hyunmin/Devsisters/grpc-example-server/src/main/scala/com/devsisters/services/impl/PingServiceImpl.scala:3:31: not found: type PingService[0m
+[0m[[0m[31merror[0m] [0m[0mclass PingServiceImpl extends PingService {}[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
