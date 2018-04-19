@@ -14,3 +14,17 @@ service PingService {
     rpc Ping (PingRequest) returns (PingReply) {}
     rpc StreamingPing (stream PingRequest) returns (stream PingReply) {}
 }
+
+message SendMessageRequest {
+    int32 recipient_id = 2;
+    string message = 3;
+}
+
+message MessageReceivedReply {
+    int32 sender_id = 1;
+    string message = 2;
+}
+
+service ChatService {
+    rpc Chat (stream SendMessageRequest) returns (stream MessageReceivedReply) {}
+}
